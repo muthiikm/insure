@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709300299077",
+    "project_id": "insure-48e10",
+    "storage_bucket": "insure-48e10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709300299077:android:de856c17e3a7084dbdca2c",
+        "android_client_info": {
+          "package_name": "com.example.insure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709300299077-8fgpcb4beoc4o6ehl3rfcocqbkuqmcif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVVwmjiaauBEOWaqViqLl9HkupHunfitU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709300299077-8fgpcb4beoc4o6ehl3rfcocqbkuqmcif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
