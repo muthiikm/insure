@@ -4,7 +4,6 @@ import 'package:insure/screens/navpages/bottomnav.dart';
 import 'package:insure/widgets/card.dart';
 import 'package:insure/widgets/home.dart';
 
-import '../categories/motor/vehicle.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

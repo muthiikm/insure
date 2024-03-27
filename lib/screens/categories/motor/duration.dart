@@ -95,21 +95,17 @@ class _TimeRangeState extends State<TimeRange> {
         firstDate: DateTime(1990),
         lastDate: DateTime(2100));
 
-    if (pickedDate != null) {
-      print(pickedDate); //pickedDate output format => 2021-03-10 00:00:00.000
-      // String formattedDate = DateFormat('yyyy-MM-dd').format(pickedDate);
-      String formattedDate = DateFormat.yMMMd().format(pickedDate);
-      print(
-          formattedDate); //formatted date output using intl package =>  2021-03-16
-      //you can implement different kind of Date Format here according to your requirement
+    print(pickedDate); //pickedDate output format => 2021-03-10 00:00:00.000
+    // String formattedDate = DateFormat('yyyy-MM-dd').format(pickedDate);
+    String formattedDate = DateFormat.yMMMd().format(pickedDate!);
+    print(
+        formattedDate); //formatted date output using intl package =>  2021-03-16
+    //you can implement different kind of Date Format here according to your requirement
 
-      setState(() {
-        startdate.text = formattedDate; //set output date to TextField value.
-      });
-    } else {
-      print("Date is not selected");
+    setState(() {
+      startdate.text = formattedDate; //set output date to TextField value.
+    });
     }
-  }
 
     void tapped2() async {
     DateTime? pickedDate = await showDatePicker(
@@ -118,18 +114,14 @@ class _TimeRangeState extends State<TimeRange> {
         firstDate: DateTime(1990),
         lastDate: DateTime(2100));
 
-    if (pickedDate != null) {
-      print(pickedDate); //pickedDate output format => 2021-03-10 00:00:00.000
-      String formattedDate = DateFormat.yMMMd().format(pickedDate);
-      print(
-          formattedDate); //formatted date output using intl package =>  2021-03-16
-      //you can implement different kind of Date Format here according to your requirement
+    print(pickedDate); //pickedDate output format => 2021-03-10 00:00:00.000
+    String formattedDate = DateFormat.yMMMd().format(pickedDate!);
+    print(
+        formattedDate); //formatted date output using intl package =>  2021-03-16
+    //you can implement different kind of Date Format here according to your requirement
 
-      setState(() {
-        enddate.text = formattedDate; //set output date to TextField value.
-      });
-    } else {
-      print("Date is not selected");
+    setState(() {
+      enddate.text = formattedDate; //set output date to TextField value.
+    });
     }
-  }
 }

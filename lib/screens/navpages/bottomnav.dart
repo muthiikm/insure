@@ -4,7 +4,6 @@ import 'package:insure/screens/navpages/categories.dart';
 import 'package:insure/screens/navpages/notifications.dart';
 import 'package:insure/screens/navpages/settings.dart';
 
-import '../account/signup.dart';
 import '../mainpages/homepage.dart';
 
 class NavBar extends StatefulWidget {

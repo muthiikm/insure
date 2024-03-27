@@ -34,7 +34,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => const SignUp(),
         '/second': (context) => const Welcome(),
       },
-      home: const Riders(make: "make", model: "model", yom: "yom", value: "value", covertype: "covertype", rate: "rate"),
+      initialRoute: '/second'
+      // home: const Riders(make: "make", model: "model", yom: "yom", value: "value", covertype: "covertype", rate: "rate"),
       // home: const NewVehicle(covertype: "comprehensive", rate: "3"),
       // home: const Companies(make: "toyota", model: "corona", yom: "2021", value: "200000"),
     );
